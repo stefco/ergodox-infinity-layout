@@ -7,26 +7,26 @@ KLL = "0.3c";
 Date = "2015-09-12";
 Generator = "KIICONF 0.2";
 
-U"ESC" : U"LCK1";
+U"ESC" : U"LGUI" + U"LBRACE" # back;
 U"5" : U"5";
 U"4" : U"4";
 U"3" : U"3";
 U"2" : U"2";
 U"1" : U"1";
-U"EQUALS" : U"LBRACE";
-U"FUNCTION1" : U"FUN1";
+U"EQUALS" : U"LGUI" + U"LSHIFT" + U"LBRACE";   # prev tab
+U"FUNCTION1" : U"LGUI" + U"RBRACE";    # forward
 U"T" : U"T";
 U"R" : U"R";
 U"E" : U"E";
 U"W" : U"W";
 U"Q" : U"Q";
-U"BACKSLASH" : U"RBRACE";
+U"BACKSLASH" : U"LGUI" + U"LSHIFT" + U"RBRACE";  # next tab
 U"G" : U"G";
 U"F" : U"F";
 U"D" : U"D";
 U"S" : U"S";
 U"A" : U"A";
-U"TAB" : U"LEFT";
+U"TAB" : U"LCTRL" + U"LEFT"; # prev space
 U"LALT" : U"FUN1";
 U"LCTRL" : U"LALT";
 U"FUNCTION2" : U"TAB";
@@ -35,7 +35,7 @@ U"V" : U"V";
 U"C" : U"C";
 U"X" : U"X";
 U"Z" : U"Z";
-U"LSHIFT" : U"RIGHT";
+U"LSHIFT" : U"LCTRL" + U"RIGHT"; # next space
 U"HOME" : U"CAPSLOCK";
 U"END" : U"LGUI";
 U"DELETE" : U"LSHIFT";
@@ -45,14 +45,14 @@ U"FUNCTION4" : U"LEFT";
 U"FUNCTION3" : U"EQUAL";
 U"BACKTICK" : U"BACKTICK";
 U"LGUI" : U"LCTRL";
-U"FUNCTION6" : U"LCK2";
+U"FUNCTION6" : U"LAT4";
 U"6" : U"6";
 U"7" : U"7";
 U"8" : U"8";
 U"9" : U"9";
 U"0" : U"0";
 U"MINUS" : U"MINUS";
-U"LBRACE" : U"FUN2";
+U"LBRACE" : U"LCK4";
 U"Y" : U"Y";
 U"U" : U"U";
 U"I" : U"I";
@@ -74,7 +74,7 @@ U"COMMA" : U"COMMA";
 U"PERIOD" : U"PERIOD";
 U"SLASH" : U"SLASH";
 U"RSHIFT" : U"FUN3";
-U"PAGEUP" : U"UP";
+U"PAGEUP" : U"LCTRL" + U"UP";  # show mission control
 U"PAGEDOWN" : U"LGUI";
 U"ENTER" : U"ENTER";
 U"SPACE" : U"SPACE";
