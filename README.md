@@ -1,5 +1,18 @@
 # Infinity ErgoDox layout and Kiibohd kll compiler
 
+Based entirely off of fredZen's compilation mechanism, with my own KLL files.
+
+The pictured keyboard layout is the spec I am trying to achieve; I can't do
+it all through the Infinity Ergodox online keyboard configurator (though I
+did use that to generate a rough draft of the KLL files), so instead I use an
+[online keyboard layout editor](http://www.keyboard-layout-editor.com/) to
+draft the spec.
+
+The actual app-launcher mechanism is through BetterTouchTool.
+
+The "tap" functionality for Esc and Control/Shift is implemented through
+[Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements).
+
 My layout for the [Infinity ErgoDox](http://input.club/devices/infinity-ergodox) keyboard.
 
 ![Keyboard layout](layout.png)
