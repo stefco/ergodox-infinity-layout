@@ -19,6 +19,9 @@ My layout for the [Infinity ErgoDox](http://input.club/devices/infinity-ergodox)
 
 ![Keyboard layout](layout.png)
 
+The default layout, for reference regarding the KLL mappings:
+
+![Default keyboard layout](ergodox-default-layout.png)
 ## Editing
 
 The layout files are in kiibohd/*.kll.
