@@ -18,12 +18,12 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LCK1",
-                    "label": "LOCK-1"
-                },
-                "1": {
                     "key": "LBRACE",
                     "label": "["
+                },
+                "1": {
+                    "key": "PAGEUP",
+                    "label": "PGUP"
                 }
             }
         },
@@ -177,12 +177,12 @@
             "h": 6,
             "layers": {
                 "0": {
-                    "key": "FUN1",
-                    "label": "\u01921"
-                },
-                "1": {
                     "key": "RBRACE",
                     "label": "]"
+                },
+                "1": {
+                    "key": "PAGEDOWN",
+                    "label": "PGDN"
                 }
             }
         },
@@ -800,12 +800,12 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LCK2",
-                    "label": "LOCK-2"
-                },
-                "1": {
                     "key": "LAT4",
                     "label": "LATCH-4"
+                },
+                "1": {
+                    "key": "HOME",
+                    "label": "HOME"
                 }
             }
         },
@@ -979,12 +979,12 @@
             "h": 6,
             "layers": {
                 "0": {
-                    "key": "FUN2",
-                    "label": "\u01922"
-                },
-                "1": {
                     "key": "LCK4",
                     "label": "LOCK-4"
+                },
+                "1": {
+                    "key": "END",
+                    "label": "END"
                 }
             }
         },
