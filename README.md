@@ -3,8 +3,10 @@
 Based entirely off of fredZen's compilation mechanism, with my own KLL files.
 
 The pictured keyboard layout is the spec I am trying to achieve; I can't do
-it all through the Infinity Ergodox online keyboard configurator (though I
-did use that to generate a rough draft of the KLL files), so instead I use an
+it all through the Infinity Ergodox
+[online keyboard configurator](https://input.club/configurator-ergodox/)
+(though I did use that to generate a rough draft of the KLL files), so instead
+I use an
 [online keyboard layout editor](http://www.keyboard-layout-editor.com/) to
 draft the spec.
 
