@@ -27,9 +27,9 @@ The default layout, for reference regarding the KLL mappings:
 
 The layout files are in kiibohd/\*.kll.
 
-- fred-0.kll is the main layer
-- fred-1.kll is the layer with arrows, function keys and braces
-- fred-2.kll is the layer with the keypad
+- ergodox-0.kll is the main layer
+- ergodox-1.kll is the layer with arrows, function keys and braces
+- ergodox-2.kll is the layer with the keypad
 
 ## Workflow
 
@@ -40,10 +40,11 @@ installation.
 
 1. Edit ergodox-\*.kll to my liking.
 2. If I added or removed a layer, I need to change the value of PartialMaps in
-   kiibohd/fred.bash accordingly
-3. Run `./compile.sh fred.bash` from a docker aware bash. For me that will just
-   be git-bash. And yes, that's correct, there is no directory before fred.bash
-   although fred.bash is in the kiibohd subdirectory.
+   kiibohd/ergodox.bash accordingly
+3. Run `./compile.sh ergodox.bash` from a docker aware bash. For me that will
+   just be git-bash. And yes, that's correct, there is no directory before
+   ergodox.bash
+   although ergodox.bash is in the kiibohd subdirectory.
 4. The compiled firmware is now available as kiibohd/\*.dfu.bin.
 5. Flash each side of the keyboard with
    [dfu-util](https://github.com/kiibohd/controller/wiki/Loading-DFU-Firmware).
