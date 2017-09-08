@@ -7,7 +7,7 @@ KLL = "0.3c";
 Date = "2015-09-12";
 Generator = "KIICONF 0.2";
 
-U"ESC" : U"LGUI" + U"LBRACE" # back;
+U"ESC" : U"LGUI" + U"LBRACE"; # back
 U"5" : U"5";
 U"4" : U"4";
 U"3" : U"3";

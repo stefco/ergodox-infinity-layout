@@ -25,13 +25,13 @@ U"F" : U"RCTRL" + U"F";
 U"D" : U"RCTRL" + U"D";
 U"S" : U"RCTRL" + U"S";
 U"A" : U"RCTRL" + U"A";
-U"TAB" : U"RCTRL" + U"TAB" # key left of A
+U"TAB" : U"RCTRL" + U"TAB"; # key left of A
 U"B" : U"RCTRL" + U"B";
 U"V" : U"RCTRL" + U"V";
 U"C" : U"RCTRL" + U"C";
 U"X" : U"RCTRL" + U"X";
 U"Z" : U"RCTRL" + U"Z";
-U"HOME" : U"LCK2";
+#U"HOME" : U"LCK2";
 U"FUNCTION5" : CONS"VOLUMEUP";
 U"FUNCTION4" : CONS"VOLUMEDOWN";
 U"FUNCTION3" : CONS"MUTE";
@@ -42,7 +42,7 @@ U"7" : U"F7";
 U"8" : U"F8";
 U"9" : U"F9";
 U"0" : U"F10";
-U"MINUS" : U"RCTRL" + U"MINUS";
+U"MINUS" : flashMode();
 U"LBRACE" : U"END";
 U"Y" : U"F16";
 U"U" : U"F17";
