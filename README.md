@@ -15,7 +15,8 @@ The actual app-launcher mechanism is through BetterTouchTool.
 The "tap" functionality for Esc and Control/Shift is implemented through
 [Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements).
 
-My layout for the [Infinity ErgoDox](http://input.club/devices/infinity-ergodox) keyboard.
+My layout for the
+[Infinity ErgoDox](http://input.club/devices/infinity-ergodox) keyboard.
 
 ![Keyboard layout](layout.png)
 
@@ -32,16 +33,25 @@ The layout files are in kiibohd/\*.kll.
 
 ## Workflow
 
-My workflow uses the [dockerized version](https://hub.docker.com/r/fmerizen/ergodox-infinity-layout/) of the KLL compiler. First make sure that you have a working docker installation.
+My workflow uses the
+[docker version](https://hub.docker.com/r/fmerizen/ergodox-infinity-layout/)
+of the KLL compiler. First make sure that you have a working docker
+installation.
 
 1. Edit ergodox-\*.kll to my liking.
-2. If I added or removed a layer, I need to change the value of PartialMaps in kiibohd/fred.bash accordingly
-3. Run `./compile.sh fred.bash` from a docker aware bash. For me that will just be git-bash. And yes, that's correct, there is no directory before fred.bash although fred.bash is in the kiibohd subdirectory.
+2. If I added or removed a layer, I need to change the value of PartialMaps in
+   kiibohd/fred.bash accordingly
+3. Run `./compile.sh fred.bash` from a docker aware bash. For me that will just
+   be git-bash. And yes, that's correct, there is no directory before fred.bash
+   although fred.bash is in the kiibohd subdirectory.
 4. The compiled firmware is now available as kiibohd/\*.dfu.bin.
-5. Flash the keyboard with [dfu-util](https://github.com/kiibohd/controller/wiki/Loading-DFU-Firmware). More specifically, run
+5. Flash each side of the keyboard with
+   [dfu-util](https://github.com/kiibohd/controller/wiki/Loading-DFU-Firmware).
+   More specifically, run:
 
     ```bash
     dfu-util -D <firmware>
     ```
 
-   where `<firmware>` is the firmware file created by docker and stored in the `kiibohd` directory.
+   where `<firmware>` is the firmware file created by docker and stored in the
+   `kiibohd` directory.
