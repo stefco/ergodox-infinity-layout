@@ -40,6 +40,8 @@ My workflow uses the [dockerized version](https://hub.docker.com/r/fmerizen/ergo
 4. The compiled firmware is now available as kiibohd/\*.dfu.bin.
 5. Flash the keyboard with [dfu-util](https://github.com/kiibohd/controller/wiki/Loading-DFU-Firmware). More specifically, run
 
+    ```bash
     dfu-util -D <firmware>
+    ```
 
    where `<firmware>` is the firmware file created by docker and stored in the `kiibohd` directory.
